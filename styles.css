@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-blue: #007acc;
+  --lighter-gray: #2d2d30;
+  --lightest-gray: #3e3e42;
+  --darker-gray: #252526;
+}
+
+body {
+  background: #FAF9F6;
+  font-family: Inconsolata;
+}
+.heading {
+  font-size: 4rem;
+  color: #273138;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+}
+
+.input-wrapper {
+  margin-bottom: 4rem;
+}
+input {
+  width: 175px;
+  font-family: Inconsolata;
+  font-size: 3rem;
+  text-align: center;
+}
+.top-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+p {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+/* code-prettify styles */
+pre .str, code .str { color: #65B042; } /* string  - green */
+pre .kwd, code .kwd { color: #E28964; } /* keyword - dark pink */
+pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
+pre .typ, code .typ { color: #89bdff; } /* type - light blue */
+pre .lit, code .lit { color: #c8f9a3; } /* literal - blue */
+pre .pun, code .pun { color: rgb(231, 145, 255); } /* punctuation - white */
+pre .pln, code .pln { color: rgb(250, 255, 173); } /* plaintext - white */
+pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
+pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
+pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
+pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
+
+
+pre.prettyprint {
+  margin: 0;
+  padding: 3rem 2rem;
+  padding-bottom: 3.5rem;
+  border: none;
+  font-weight: 600;
+  background-color: #273138;
+  border-radius: 0px 0px 7px 7px;
+  font-size: 1.5rem;
+  white-space: normal;
+  text-align: center;
+}
+
+/* mac window styles */
+.outer {
+  background: #b4b4b4;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 7px;
+  background: #273138;
+  box-shadow: 8px 14px 11px -13px rgba(37,37,38,0.75);
+  -webkit-box-shadow: 8px 14px 11px -13px rgba(37,37,38,0.75);
+  -moz-box-shadow: 8px 14px 11px -13px rgba(37,37,38,0.75);
+  margin: 0 auto;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #f9f9f9;
+  border-radius: 50%;
+  margin: 0 4px 0 0;
+}
+  .red {
+    background: #FF6057;
+    border: 1px solid #E14640;
+  }
+
+  .amber {
+    background: #FFBD2E;
+    border: 1px solid #DFA123;
+  }
+
+  .green {
+    background: #27C93F;
+    border: 1px solid #1DAD2B;
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- js -->
+  <script defer src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+  <script defer src="main.js"></script>
+  <!-- prettify code snippets -->
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+   <!-- css -->
+   <link rel="stylesheet" href="styles.css">
+  <title>Responsive Clamp Generator</title>
+</head>
+<body>
+  <h1 class="heading">FLUID SIZING GENERATOR</h1>
+  <div class="top-wrapper">
+    <div class="input-wrapper">
+      <p>Maximum Element Size</p>
+      <input type="text" id="maxElementSize" oninput="getValue()">
+    </div>
+    <div class="input-wrapper">
+      <p>Minimum Element Size</p>
+      <input type="text" id="minElementSize" oninput="getValue()">
+    </div>
+  </div>
+  <div class="top-wrapper">
+    <div class="input-wrapper">
+      <p>Maximum Viewport Width</p>
+      <input type="text" id="maxVW" oninput="getValue()">
+    </div>
+    <div class="input-wrapper">
+      <p>Minimum Viewport Width</p>
+      <input type="text" id="minVW" oninput="getValue()">
+    </div>
+  </div>
+  <div class="outer">
+    <div class="dot red"></div>
+    <div class="dot amber"></div>
+    <div class="dot green"></div>
+    <pre class="prettyprint">
+      <code id="code">
+        Add all required sizes, then copy & paste this code into your project!
+      </code>
+    </pre>
+  </div>
+
+</body>
+</html>
