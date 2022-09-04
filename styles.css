@@ -104,3 +104,38 @@ pre.prettyprint {
     background: #27C93F;
     border: 1px solid #1DAD2B;
   }
+
+  .attribution {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  a {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: .2rem;
+    text-decoration: none;
+    color: #273138;
+  }
+  .flip {
+    cursor: pointer;
+    animation: slowPulse 2s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: transform 0.7s;
+  }
+  .flip:hover{
+    transform: rotate(360deg) scale(1.5);
+  }
+
+  @keyframes slowPulse {
+    0% {
+       color: #273138;
+       /* transform: scale(1); */
+    }
+    70% {
+      color: #E28964;
+      /* transform: scale(1.15); */
+    }
+    100% {
+      color: #273138;
+    }
+}
